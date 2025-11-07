@@ -1,0 +1,285 @@
+<mxfile host="app.diagrams.net" modified="2025-11-06T12:00:00.000Z" agent="wireframe" version="22.0.8">
+  <diagram id="portal" name="Portal">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1020" height="700" as="geometry"/>
+        </mxCell>
+        <mxCell id="title" value="Equipment Portal" style="text;whiteSpace=wrap;html=1;fontSize=28;fontColor=#2B2B2B;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="400" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="desc" value="Choose an action:" style="text;whiteSpace=wrap;html=1;fontSize=16;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="btnAdd" value="Add Equipment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF8A5B;strokeColor=#FF7640;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="btnUpdate" value="Update Equipment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F0E6DF;fontColor=#2B2B2B;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="170" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="btnDelete" value="Delete Equipment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EF4444;strokeColor=#DC2626;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="450" y="170" width="170" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="btnView" value="View All Equipments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F0E6DF;fontColor=#2B2B2B;" vertex="1" parent="1">
+          <mxGeometry x="640" y="170" width="190" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram id="add" name="Add">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" page="1" pageScale="1" pageWidth="1100" pageHeight="800">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="card" style="rounded=1;fillColor=#FFFFFF;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1020" height="700" as="geometry"/>
+        </mxCell>
+        <mxCell id="hdr" value="Add Equipment" style="text;html=1;fontSize=24;fontColor=#2B2B2B;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="back" value="Back" style="rounded=1;fillColor=none;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="80" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="portal" value="Portal" style="rounded=1;fillColor=none;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="170" y="110" width="80" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- left column -->
+        <mxCell id="lblName" value="Name" style="text;html=1;fontSize=12;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="inpName" value="" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="320" height="36" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="lblCat" value="Category" style="text;html=1;fontSize=12;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="inpCat" value="" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="320" height="36" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="lblDesc" value="Description" style="text;html=1;fontSize=12;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="inpDesc" value="" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="330" width="780" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- right column -->
+        <mxCell id="lblTotal" value="Total Quantity" style="text;html=1;fontSize=12;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="420" y="170" width="140" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="inpTotal" value="" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="420" y="190" width="180" height="36" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="lblAvail" value="Available Quantity" style="text;html=1;fontSize=12;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="620" y="170" width="160" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="inpAvail" value="" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="190" width="180" height="36" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="lblCond" value="Condition" style="text;html=1;fontSize=12;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="820" y="170" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="selCond" value="Good ▾" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="820" y="190" width="160" height="36" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="btnSubmit" value="Add Equipment" style="rounded=1;fillColor=#FF8A5B;strokeColor=#FF7640;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="740" y="430" width="180" height="44" as="geometry"/>
+        </mxCell>
+
+        <!-- success modal placeholder -->
+        <mxCell id="modal" value="Success modal (auto-close)" style="rounded=1;dashed=1;fillColor=#FFFFFF;strokeColor=#F0E6DF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="520" width="260" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram id="upd-list" name="Update List">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" connect="0" page="1" pageWidth="1100" pageHeight="800">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="card" style="rounded=1;fillColor=#FFFFFF;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1020" height="700" as="geometry"/>
+        </mxCell>
+        <mxCell id="hdr" value="Update Equipment" style="text;html=1;fontSize=24;fontColor=#2B2B2B;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="320" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctrls" value="" style="rounded=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="860" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="search" value="Search…" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="320" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="rows" value="Rows: 10 ▾" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="120" width="120" height="36" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="table" value="" style="shape=table;html=1;whiteSpace=wrap;container=1;collapsible=0;startSize=0;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="900" height="420" as="geometry"/>
+        </mxCell>
+        <mxCell id="th" value="Name | Category | Condition | Total | Available | Actions" style="text;html=1;fontSize=12;fontColor=#6B7280;" vertex="1" parent="table">
+          <mxGeometry x="0" y="0" width="900" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="row1" value="Alpha Cam | Electronics | Good | 10 | 7 | [Edit]" style="text;html=1;" vertex="1" parent="table">
+          <mxGeometry x="0" y="40" width="900" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="row2" value="Beta Mic | Audio | New | 3 | 3 | [Edit]" style="text;html=1;" vertex="1" parent="table">
+          <mxGeometry x="0" y="70" width="900" height="24" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pager" value="Page 1 of N — [Prev] [Next]" style="text;html=1;fontSize=12;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="80" y="620" width="300" height="24" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram id="upd-editor" name="Update Editor">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" connect="0" page="1" pageWidth="1100" pageHeight="800">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="card" style="rounded=1;fillColor=#FFFFFF;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1020" height="700" as="geometry"/>
+        </mxCell>
+        <mxCell id="hdr" value="Update Equipment — Editor" style="text;html=1;fontSize=24;fontColor=#2B2B2B;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="420" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- two-column existing vs new -->
+        <mxCell id="colLeft" value="Existing" style="text;html=1;fontSize=14;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="colRight" value="New (blank to keep)" style="text;html=1;fontSize=14;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="220" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Rows -->
+        <mxCell id="exName" value="Alpha Cam" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="380" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="newName" value="" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="150" width="380" height="36" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="exCat" value="Electronics" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="380" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="newCat" value="" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="380" height="36" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="exDesc" value="Description..." style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="380" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="newDesc" value="" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="250" width="380" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="exTotal" value="10" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="330" width="180" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="newTotal" value="" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="330" width="180" height="36" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="exAvail" value="7" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="280" y="330" width="180" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="newAvail" value="" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="760" y="330" width="180" height="36" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="exCond" value="Good" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="380" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="newCond" value="Good ▾" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="380" width="380" height="36" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="actions" value="[Cancel]   [Update]" style="text;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="760" y="440" width="200" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="modal" value="Success modal (auto-close)" style="rounded=1;dashed=1;fillColor=#FFFFFF;strokeColor=#F0E6DF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="520" width="260" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram id="delete" name="Delete">
+    <mxGraphModel dx="1200" dy="800" grid="1" page="1" pageWidth="1100" pageHeight="800">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="card" style="rounded=1;fillColor=#FFFFFF;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1020" height="700" as="geometry"/>
+        </mxCell>
+        <mxCell id="hdr" value="Delete Equipment" style="text;html=1;fontSize=24;fontColor=#2B2B2B;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="320" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="search" value="Search…" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="320" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="rows" value="Rows: 10 ▾" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="120" width="120" height="36" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="table" value="" style="shape=table;container=1;startSize=0;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="900" height="420" as="geometry"/>
+        </mxCell>
+        <mxCell id="th" value="Name | Category | Total | Available | Actions" style="text;html=1;fontSize=12;fontColor=#6B7280;" vertex="1" parent="table">
+          <mxGeometry x="0" y="0" width="900" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="row1" value="Alpha Cam | Electronics | 10 | 7 | [Delete]" style="text;html=1;" vertex="1" parent="table">
+          <mxGeometry x="0" y="40" width="900" height="24" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="modal" value="Success modal (auto-close)" style="rounded=1;dashed=1;fillColor=#FFFFFF;strokeColor=#F0E6DF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="620" width="260" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram id="view" name="View All">
+    <mxGraphModel dx="1200" dy="800" grid="1" page="1" pageWidth="1100" pageHeight="800">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="card" style="rounded=1;fillColor=#FFFFFF;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1020" height="700" as="geometry"/>
+        </mxCell>
+        <mxCell id="hdr" value="All Equipments" style="text;html=1;fontSize=24;fontColor=#2B2B2B;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="search" value="Search name/description…" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="360" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="rows" value="Rows: 20 ▾" style="rounded=1;fillColor=#FFFDFB;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="460" y="120" width="120" height="36" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="table" value="" style="shape=table;container=1;startSize=0;strokeColor=#F0E6DF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="900" height="420" as="geometry"/>
+        </mxCell>
+        <mxCell id="th" value="Name | Category | Description | Condition | Total | Available" style="text;html=1;fontSize=12;fontColor=#6B7280;" vertex="1" parent="table">
+          <mxGeometry x="0" y="0" width="900" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="row" value="(A→Z, paginated rows…)" style="text;html=1;" vertex="1" parent="table">
+          <mxGeometry x="0" y="40" width="900" height="24" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pager" value="Page X of Y — [Prev] [Next]" style="text;html=1;fontSize=12;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="80" y="620" width="300" height="24" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
